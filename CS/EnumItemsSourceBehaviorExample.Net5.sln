@@ -1,8 +1,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 16
 VisualStudioVersion = 12.0.30723.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumItemsSourceBehaviorExample", "EnumItemsSourceBehaviorExample\EnumItemsSourceBehaviorExample.csproj", "{BA18F580-CED1-4619-ACB6-3108FE203E25}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumItemsSourceBehaviorExample", "EnumItemsSourceBehaviorExample\EnumItemsSourceBehaviorExample.Net5.csproj", "{BA18F580-CED1-4619-ACB6-3108FE203E25}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
