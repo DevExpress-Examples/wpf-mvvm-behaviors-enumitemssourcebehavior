@@ -1,7 +1,8 @@
-﻿Imports DevExpress.Xpf.Core
+Imports DevExpress.Xpf.Core
 
 Namespace EnumItemsSourceBehaviorExample
-    Partial Public Class MainWindow
+
+    Public Partial Class MainWindow
         Inherits DXWindow
 
         Public Sub New()

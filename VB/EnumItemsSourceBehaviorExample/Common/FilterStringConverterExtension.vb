@@ -1,9 +1,10 @@
-﻿Imports System
+Imports System
 Imports System.Linq
 Imports System.Windows.Markup
 Imports System.Collections.Generic
 
 Namespace EnumItemsSourceBehaviorExample.Common
+
     Public Class FilterStringConverterExtension
         Inherits MarkupExtension
 
