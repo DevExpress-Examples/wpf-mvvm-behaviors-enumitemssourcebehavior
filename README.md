@@ -6,13 +6,17 @@
 
 # WPF MVVM Framework - Bind a Control to an Enumeration with EnumItemsSourceBehavior
 
+This example uses the [EnumItemsSourceBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.EnumItemsSourceBehavior) to bind the [ComboBoxEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.ComboBoxEdit) to the `UserRole` enumeration:
+
+![image](https://user-images.githubusercontent.com/65009440/219645482-806eb846-4833-4d8e-ae20-1ff4e7b203b3.png)
+
 You can use this behavior with the following controls:
 
 * [ListBoxEdit](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.ListBoxEdit)
 * [ItemsControl](https://docs.microsoft.com/en-us/dotnet/api/system.windows.controls.itemscontrol)
-* [LookUpEditBase](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.LookUpEditBase)
+* [LookUpEditBase](https://docs.devexpress.com/WPF/DevExpress.Xpf.Editors.LookUpEditBase) descendants
 
-Each enumeration member should contain the Display attribute. This attribute is a standard [Display attribute](https://docs.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations.displayattribute) that allows you to specify localizable strings for types and members of entity partial classes.
+You can also apply attributes from the [System.ComponentModel.DataAnnotations](https://learn.microsoft.com/en-us/dotnet/api/system.componentmodel.dataannotations) and [DevExpress.Mvvm.DataAnnotations](https://docs.devexpress.com/CoreLibraries/DevExpress.Mvvm.DataAnnotations) namespaces to enumeration members.
 
 <!-- default file list -->
 ## Files to Look At
@@ -25,5 +29,5 @@ Each enumeration member should contain the Display attribute. This attribute is 
 
 ## Documentation
 
-- [CompositeCommandBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.EnumItemsSourceBehavior)
+- [EnumItemsSourceBehavior](https://docs.devexpress.com/WPF/DevExpress.Mvvm.UI.EnumItemsSourceBehavior)
 - [Behaviors](https://docs.devexpress.com/WPF/17442/mvvm-framework/behaviors)
